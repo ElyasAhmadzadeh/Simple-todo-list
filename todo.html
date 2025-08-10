@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do list</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+
+<header class="main_header">
+        <h1>TO-DO list</h1>
+    </header>
+    <main>
+        <section class="user-input">
+            <form action="#">
+                <textarea placeholder="enter your today work" maxlength="100" minlength="10" rows="5" cols="10" name="" class="textarea" id=""></textarea>
+                <div class="txt_error"></div>
+                <span class="textarea_characters">100</span>
+                <button class="submit">SUBMIT</button>
+            </form>
+        </section>
+        <section class="works">
+            <ul class="works-list">
+                <!-- <li class="work">
+                    <div class="content"></div>
+                    <div class="buttons">
+                        <button class="delete"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                        <button class="did"><i class="fa fa-check" aria-hidden="true"></i></button>
+                    </div>
+                </li> -->
+            </ul>
+        </section>
+    </main>
+    <footer></footer>
+    
+
+</body>
+
+<script src="todo.js"></script>
+
+</html>
